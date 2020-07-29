@@ -14,6 +14,6 @@ public class PluginInitializer implements InitializingBean {
 
 	@Override
 	public void afterPropertiesSet() throws Exception {
-		labelTokensRegistrar.register(new RegistrationEnglishLetterSequence());
+		labelTokensRegistrar.register(new ParentSpecimenEnglishLetterSequence());
 	}
 }

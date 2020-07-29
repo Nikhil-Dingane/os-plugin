@@ -6,11 +6,11 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 jar {
-  baseName = 'os-eng-seq-tokens'
+  baseName = 'os-eng-seq-token'
   version =  '7.0.0'
 
   manifest {
-    attributes("os-plugin-name": "os-eng-seq-tokens")
+    attributes("os-plugin-name": "os-eng-seq-token")
   }
   
   
